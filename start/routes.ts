@@ -32,3 +32,14 @@ Route.get('/profile' , 'ProfilesController.getAll')
 Route.put('/profile', 'ProfilesController.update')
 
 Route.delete('/profile' , 'ProfilesController.delete')
+
+//CRUD de USERS
+Route.post('/user', 'UsersController.post')
+
+Route.get('/user' , 'UsersController.getAll')
+
+Route.put('/user', 'UsersController.update')
+
+Route.delete('/user' , 'UsersController.delete')
+
+Route.put('/user/recoverPassword', 'UsersController.updatePassoword')
